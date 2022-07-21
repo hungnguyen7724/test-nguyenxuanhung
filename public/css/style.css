@@ -1,0 +1,524 @@
+body{
+    max-width: 1920px;
+    overflow-x: hidden;
+}
+/* Header */
+header{
+    border: 1px grey solid;
+    padding: 24px 21px;
+}
+
+.nav-link {
+    color: black;
+}
+.nav {
+    font-weight: 500;
+    justify-content: center;
+}
+.logo-header{ 
+    display: flex;
+    padding: 24px 20px;
+}
+.user-login i{
+   font-size: 30px;
+   padding-top: 5px;
+    padding-left: 20px;
+}
+.btn-edit{
+    
+    color: #FFF;
+    background-color: #0046a6;
+}
+.btn-sell{
+    color: #0046a6;
+    background-color: #fff;
+}
+/* Banner */
+.img-banner{
+    position: relative;
+}
+/* Search */
+.bg-filter {
+    width: 1920px;
+    height: 750px;
+    text-align: center;
+    height: 170px;
+    margin: 50px 0 89px;
+    padding: 30px 143px 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px 0 rgba(165, 189, 213, 0.2);
+    background-color: #fff;
+  }
+
+/*Drop down  */
+.btn_dropdown {
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 8px 30px 0 rgba(165, 189, 213, 0.11);
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+  }
+  .btn_dropdown p{
+    font-weight: none;
+    font-weight: none;
+    color: #808080;
+  }
+  /* Thiết lập vị trí cho thẻ div với class dropdown*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Nội dung Dropdown */
+  .content_dropdown {
+    /*Ẩn nội dụng các đường dẫn*/
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Thiết kế style cho các đường dẫn tronng Dropdown */
+  .content_dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* thay đổi màu background khi hover vào đường dẫn */
+  .content_dropdown a:hover {
+    background-color: #fff;
+    font-weight: bold;
+    color: #0046a6;
+}
+  
+  
+  /* hiển thị nội dung dropdown khi hover */
+  .dropdown:hover .content_dropdown {display: block;}
+  
+  /* Thay đổi màu background cho nút khi được hover */
+  .dropdown:hover .btn_dropdown {
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 8px 30px 0 rgba(165, 189, 213, 0.11);
+}
+*/
+  
+/* Select */
+.reset{
+    position: relative;
+    top: 10px;
+    left: 200px;
+    float: right;
+}
+.test{
+    position: relative;
+    top: 90px;
+    right: 250px;
+    float: right;
+}
+
+.select{
+    position: relative;
+    top: -500px;
+}
+.search {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #0046a6;
+    color: white;
+    border-radius: 10px;
+}
+.search a:hover{
+    color: black;
+    background: #FFF;
+    box-shadow: 0 8px 30px 0 rgba(165, 189, 213, 0.11);
+    
+}
+.search a{
+    text-align: right;
+}
+ 
+/* New protection film list */
+
+h2.new_protection {
+    margin-top: -235px;
+    text-align: center;
+}
+
+.film {
+    width: 380px;
+    height: 460px;
+    margin: 25px 0;
+    padding: 0 0 12px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px 0 rgba(165, 189, 213, 0.11);
+    background-color: #fff;
+}
+.bedge{
+    display: flex;
+}
+.bedge p {
+    position: relative;
+    top:40px;
+    left: 30px;
+}
+.icon-bookmark {
+    width:40px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    left: 45px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ff6900;
+}
+.icon-bookmark img{
+    width: 16px;
+    height: 20px;
+    position: relative;
+    top: 6px;
+    object-fit: contain;
+}
+.model{
+    text-align: center;
+}
+.model img{
+    position: relative;
+    top: -30px;
+    width: 280px;
+    height: 150px;
+}
+.name-car p {
+    font-size: 14px;
+    font-weight: bold;
+    width: 310px;
+    height: 35px;
+    margin: -10px 10px 15px;
+    padding: 0 30px;
+}
+.name-car span{
+    width: 340px;
+    height: 15px;
+    margin: 10px 40px 20px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #808080;
+  }
+.line{
+    width: 380px;
+    height: 1px;
+    margin: 10px 0px;
+    background-color: #f8f9fa;
+}
+.decript{
+    display: flex;
+}
+.start {
+    color:#ffd509;
+    margin: 5px 120px 0px 40px;
+}
+.price-credit p{
+    text-align: left;
+    font-size: 18px;
+    color: #0046a6;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.price-credit{
+    line-height: 10px;
+}
+.downloads{
+    color: #808080;
+}
+.by-user {
+    position: relative;
+    top: 12px;
+}
+.by-user i{
+    width: 22px;
+    height: 30px;
+    color: #fff;
+    
+    border-radius: 50%;
+    background-color: #0046a6;
+}
+
+.by-user p{
+    position: relative;
+    top: 10px;
+    right: 35px;
+    float: right;
+}
+.by-user img{
+    width: 40px;
+    height: 40px;
+    margin: 0 40px;
+    border-radius: 50%;
+}
+
+.lev-user{
+    position: relative;
+    bottom: 22px;
+    margin: 0 30px;
+    float: right;
+}
+
+.load-more a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 15px;
+}
+.load-more{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    left: 870px;
+    background-color: #0046a6;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* The try edit */
+.car{
+    max-width: 1920px;
+}
+.bg-car{
+    width: 953px;
+    height: 596px;
+
+    background-image: url('../img/그룹\ 1703.png');
+}
+.car-edit-1 img{
+    width: 953px;
+    height: 596px;
+    object-fit: contain;
+}
+.car-edit-2{
+    position: relative;
+    top: 275px;
+    left: 150px;
+}
+.car-edit-6{
+    position: relative;
+    top: 205px;
+    left: 150px;
+}
+
+.car-edit-2 p {
+    width: 450px;
+    height: 54px;
+    margin: 10px 0 0;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 0px;
+}
+.car-edit-3 {
+    background: #f8f9fa;
+}
+.net{
+    position: relative;
+    top: 275px;
+    left: 150px;
+}
+.car-edit-1,.car-edit-2, .car-edit-3, .car-edit-4, .car-edit-5, .car-edit-6{
+    width: 953px;
+    height: 595px;
+}
+.content-car-3{
+    width: 953px;
+}
+.banner-edit {
+    background-image: url('../img/banner.png');
+}
+.medal span, .net span, .icon-coin img{   
+    width: 50px;
+    height: 50px;
+    background: #e5efff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.medal p, .car-edit-3 p{
+    width: 450px;
+    height: 54px;
+}
+
+.icon-pentool img {
+    width: 50px;
+    height: 50px;
+    margin: 192px 294px 10px 360px;
+    padding: 16px 12px;
+    border-radius: 10px;
+    background-color: #e5efff;
+}
+.search-for{
+    margin: 10px 14px 50px 360px;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+  }
+.easily{
+    margin: 10px 14px 30px 0px;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+  }  
+.donec {
+    font-size: 18px;
+    color: #808080;
+    margin: 10px 14px 30px 360px;
+    width: 460px;
+    height: auto;
+    font-size: 17px;
+    color: #808080;
+}
+
+.donec-vitae {
+    width: 515px;
+    height: auto;
+    font-size: 18px;
+    color: #808080;
+}
+.top-car,.middle-car,.bottom-car{
+    display: flex;
+}
+.easily {
+    padding: 10px 0;
+}
+
+/* Credit packs */
+.bg-cre-packs{
+    width: 1920px;
+    height: 679px;
+    padding: 100px 360px 140px;
+    object-fit: contain;
+    background-image: url('../img/img.png');
+    overflow-x:hidden;
+    overflow-y: hidden;
+
+}
+.bg-cre-packs p, .bg-cre-packs h2{
+    text-align: center;
+}
+.choose-credit{
+    font-size: 19px;
+    color: #808080;
+    padding: 10px 0px 30px;
+}
+.content-packs{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.line-packs{
+    width: 210px;
+    height: 1px;
+    margin: 20px 0px;
+    background-color: #ededed;
+}
+.price-panks span {
+    width: 118px;
+    height: 61px;
+    margin: 20px 46px 4px;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ff6900;   
+}
+.price-panks p{
+    margin: 5px 20px 5px;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #808080;
+}
+.standard {
+   font-weight: 600;
+   padding: 5px 0px;
+}
+.number-credit{
+    font-weight: 600;
+}   
+.total-credit{
+    color: #808080;
+    font-size: 15px;
+}
+.sum-credit {
+    font-size: 18px;
+}
+/* Footer */
+footer {
+    display: flex;
+}
+footer{
+    padding: 24px 21px;
+}
+.icon-facebook, .icon-youtube, .icon-ins {
+    width: 36px;
+    height: 36px;
+    color: white;
+    background-color: grey;
+    text-align: center;
+   
+    border-radius: 50%;
+}
+.icon-facebook{
+    padding: 10px 9px 11.5px;
+    margin: 0px 10px;
+}
+.icon-ins{
+    padding: 10px 11.5px 11.5px;
+    margin: 0px 10px;
+}
+.icon-youtube{
+    padding: 10px 7px 11.5px;
+    margin: 0px 10px;
+}
+/* Contact */
+.contact{
+    display: flex;
+    border-top: 1px solid grey;
+}
+.year{
+    padding: 21px 24px;
+    text-align: left;
+    flex: 0.5;
+}
+.email-contact{
+    padding: 21px 24px;
+    flex: 0.5;
+    text-align: right;
+}
